@@ -1,0 +1,23 @@
+.profile-attrib {
+  height: 6rem;
+  background-color: #dedede;
+  color: #3b3b3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  min-width: 6rem;
+}
+
+.profile-attrib > .attrib-value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.profile-attrib > .attrib-name {
+  text-align: center;
+  font-size: 1rem;
+}

@@ -1,0 +1,41 @@
+.character-card {
+  border-radius: 0.75rem;
+  width: 16rem;
+  overflow: clip;
+  margin-bottom: 2rem;
+}
+
+.character-picture-area {
+  background: #d2aa4c;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16rem;
+  width: 100%;
+}
+
+.character-content {
+  padding: 1rem;
+  color: black;
+  background: white;
+  height: 6rem;
+  cursor: pointer;
+}
+
+.character-name {
+  height: 3rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.character-age-gender {
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.character-icon {
+  margin-right: 0.5rem;
+}
