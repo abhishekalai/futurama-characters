@@ -120,6 +120,17 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .profile-attributes-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .sayings-container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
   
   .sayings-list > li {
     padding-right: 1rem;
